@@ -1,8 +1,26 @@
-import Pai from "./components/atividade01/01Pai";
-import * as PC from "./components/atividade01/02MeuPc";
-import React from "react";
-import * as Guerra from "./components/atividade01/03Batalha";
 
+import React from "react";
+
+import ContextA from "./components/atividade02/Q1/ContextA";
+import Avo from "./components/atividade02/Q2/ComponenteAvo";
+
+
+function App(){
+  return(
+    <div>
+      <center><h1>Atividade 002</h1></center>
+      <center><h3>aluno: Luis Felippe Morais de lima</h3></center>
+      <h1>Q1</h1>
+      <ContextA/>
+
+      <h1>Q2</h1>
+      <Avo/>
+    </div>
+  )
+}
+
+
+/*
 function App() {
   return (
     <div className="App">
@@ -40,7 +58,7 @@ function App() {
     
   );
 }
-
+*/
 export default App;
 
 
